@@ -1,0 +1,12 @@
+loginform.html is the start page.
+username = admin
+password = admin
+
+Search Inputs (Jobs Applied For) -
+'Manager' or 'manager'
+'HR' or 'hr'
+'Software Engineer' or 'software engineer'
+
+Please use 'Reset/View All' button after search to reset values.
+
+'Reset/View All' button can be used to view all application.

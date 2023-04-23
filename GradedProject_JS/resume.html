@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/resume.css">
+
+</head>
+
+<body>
+
+    <navigation>
+        <div class="header">
+            <div class="search">
+                <input type="text" id="searchbox" placeholder="Filter By Jobs">
+                <button type="button" id="searchbtn">Search</button>
+                <button type="reset" id="allbtn">Reset / View All</button>
+
+            </div>
+            <div class="prenxtbtn">
+                <button id="btn_pre">Previous</button>
+                <button id="btn_next">Next</button>
+            </div>
+        </div>
+        <hr>
+    </navigation> <br />
+
+    <div class="main">
+        <div class="name">
+            <i class="fa fa-user-circle-o" id="icon"></i>
+            <p id="full_name">John Doe</p>
+            <p id="applied"><span>Applied For - </span>
+                <span id="applied_for">Software Engineer</span>
+            </p>
+        </div>
+        <section>
+            <div class="aside">
+                <br />
+                <h3>Personal Information</h3>
+                <p id="number">9999999999</p>
+                <p id="email">john@gmail.com</p>
+                <a href="https://linkedin.com/john" id="linkedin" target="_blank">LinkedIn Profile</a>
+                <br /><br />
+
+                <h3>Address</h3>
+                <p id="address">2712 Broadway St</p>
+                <p id="pin_code">560063</p>
+                <p id="city">Bangalore</p>
+                <p id="state">Karnataka</p>
+                <br />
+
+                <h3>Technical Skills</h3>
+                <h4>Web Development</h4>
+                <h4>Level - Master</h4>
+                <p id="skill_1">HTML</p>
+                <p id="skill_2">CSS</p>
+                <p id="skill_3">JavaScript</p>
+                <p id="skill_4">Python</p>
+                <p id="skill_5"></p>
+                <br />
+
+                <h3>Hobbies</h3>
+                <p id="hobby_1">Wildlife</p>
+                <p id="hobby_2">Dance</p>
+                <p id="hobby_3">Workout</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="profile">
+                <h2>Work Experience In Previous Company</h2>
+                <br />
+
+                <div>
+                    <span class="bold">Company Name -</span>
+                    <span id="company">Harman</span>
+                </div>
+                <br />
+
+                <div>
+                    <span class="bold">Position -</span>
+                    <span id="position">Associate Engineer</span>
+                </div>
+                <br />
+
+                <div>
+                    <span class="bold">Start Date -</span>
+                    <span id="start_date">2013-01-01</span>
+                </div>
+                <br />
+
+                <div>
+                    <span class="bold">End Date -</span>
+                    <span id="end_date">2014-01-01</span>
+                </div>
+                <br />
+
+                <div>
+                    <span class="bold">Summary -</span>
+                    <span id="summary">
+                        Associate engineer with development, testing verification and validation experience on Car UI
+                        display systems.Performed phone projection development of user stories and testing with
+                        infotainment system such as Android auto ,Car playAnalyzed requirements , created test plans,
+                        executed test cases for connectivity epic such as C-connect, F-connect.Good at analyzing DLT
+                        logs and analyzing the code refactor areas.
+                    </span>
+                </div>
+                <br />
+
+                <h2>Projects</h2> <br />
+                <div>
+                    <span class="bold">Diabetic Retinopaty -</span>
+                    <span id="projects">
+                        Created a GUI using QT designer which will take image of retina as input, input image will be
+                        processed and compare with the images present in database and then classified as one of DR stage
+                        or normal.OpenCV and image processing concepts are used. survey paper on this project is publish
+                        in 2nd international conference on Topical Transcend in Science, Technology & Management.
+                    </span>
+                </div>
+                <br />
+
+                <h2>Education</h2> <br />
+                <ul>
+                    <li>
+                        <span class="bold">UG -</span>
+                        <span id="uginstitute">Sai Vidya Institute of Technology</span>
+                        <span id="ugcourse">B.E Computer Science and Engineering</span>
+                        <span id="ugcourse_start_dt">2011-01-01</span>
+                        <span id="ugcourse_end_dt">2013-01-01</span>
+                        <span id="ugcgpa"> - CGPA 8.7</span>
+                    </li>
+
+                    <li>
+                        <span class="bold">Senior Secondary -</span>
+                        <span id="ssinstitute">KV AFS YELAHANKA</span>
+                        <span id="sscgpa"> - CGPA 8.7</span>
+                    </li>
+
+                    <li>
+                        <span class="bold">High School -</span>
+                        <span id="hsinstitute">KV AFS Bhuj</span>
+                        <span id="hscgpa"> - CGPA 8.7</span>
+                    </li>
+                </ul>
+                <br />
+
+                <h2>Internship</h2> <br />
+                <ul>
+                    <li>
+                        <span class="bold">Company Name -</span>
+                        <span id="inter_company">Ibm</span>
+                    </li>
+                    <li>
+                        <span class="bold">Position -</span>
+                        <span id="inter_position">Intern</span>
+                    </li>
+                    <li>
+                        <span class="bold">Start Date -</span>
+                        <span id="inter_start_date">2013-01-01</span>
+                    </li>
+                    <li>
+                        <span class="bold">End Date -</span>
+                        <span id="inter_end_date">2014-01-01</span>
+                    </li>
+                    <li>
+                        <span class="bold">Summary -</span>
+                        <span id="inter_summary">Learned about Tools used for website testing such as Deep Trawl, NVDA,
+                            web developer extension, OpenVAS,Learned about the importance and concept of OWASP.Learned
+                            React JS and worked for Frontend development with professional.
+                        </span>
+                    </li>
+                </ul>
+                <br />
+
+                <h2>Achievements</h2> <br />
+                <p id="achievements">Attended 5 days industry orientation workshop organized by free software movement.
+                </p>
+                <br />
+                <br />
+            </div>
+        </section>
+        <hr />
+        <br />
+    </div>
+
+    <script src="JS/index1.js"></script>
+    <script src="JS/index2.js"></script>
+    <script src="JS/index3.js"></script>
+
+</body>
+
+</html>

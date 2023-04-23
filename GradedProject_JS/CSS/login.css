@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+p {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding: 3%;
+    color: rgb(255, 255, 255);
+}
+
+.login {
+    margin-top: 10%;
+    width: 55%;
+    background-color: darkblue;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+#input {
+    text-align: center;
+}
+
+input {
+    width: 80%;
+    padding: 1%;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+button {
+    width: 40%;
+    background-color: dodgerblue;
+    padding: 2%;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 10px;
+    color: white;
+}
+
+::placeholder {
+    color: darkblue;
+}
+
+input:focus {
+    background-color: rgb(148, 199, 250);
+    color: darkblue;
+}
+
+button:hover {
+    background-color: yellow;
+    border: 2px solid rgb(255, 255, 255);
+    color: black;
+    cursor: pointer;
+}

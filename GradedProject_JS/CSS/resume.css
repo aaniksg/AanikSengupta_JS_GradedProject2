@@ -1,0 +1,204 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     word-wrap: break-word;
+     max-width: 100%;
+     max-height: 100%;
+     min-width: fit-content;
+     min-height: fit-content;
+ }
+
+ .header {
+     text-align: center;
+     padding: 10px;
+ }
+
+ .header input {
+     width: 250px;
+     padding: 10px 0px;
+     border: 2px solid rgb(0, 0, 0);
+     font-size: 100%;
+     margin-bottom: 10px;
+ }
+
+ .header input:focus {
+     background-color: rgba(0, 0, 0, 0.3);
+     color: rgb(0, 0, 0);
+ }
+
+ .header ::placeholder {
+     padding-left: 5px;
+     text-align: left;
+ }
+
+ #searchbtn {
+     width: 110px;
+     height: 43px;
+     border: 2px solid rgb(40, 173, 0);
+     background-color: rgb(40, 173, 0);
+     color: rgb(255, 255, 255);
+     font-weight: 700;
+     border-radius: 10px;
+
+ }
+
+ #searchbtn:hover {
+     background-color: rgb(60, 0, 255);
+     border: 2px solid rgb(60, 0, 255);
+     color: rgb(255, 255, 255);
+     cursor: pointer;
+ }
+
+ #allbtn {
+     width: 110px;
+     height: 43px;
+     border: 2px solid rgb(40, 173, 0);
+     background-color: rgb(40, 173, 0);
+     color: rgb(255, 255, 255);
+     font-weight: 700;
+     border-radius: 10px;
+
+
+ }
+
+ #allbtn:hover {
+     background-color: rgb(60, 0, 255);
+     border: 2px solid rgb(60, 0, 255);
+     color: rgb(255, 255, 255);
+     cursor: pointer;
+ }
+
+ .prenxtbtn {
+     padding: 10px;
+ }
+
+ #btn_pre,
+ #btn_next {
+     width: 110px;
+     height: 43px;
+     border: 2px solid rgb(0, 0, 139);
+     background-color: rgb(0, 0, 139);
+     color: rgb(255, 255, 255);
+     font-weight: 700;
+     border-radius: 10px;
+     margin-left: 10px;
+ }
+
+ #btn_next:hover {
+     background-color: rgb(255, 255, 0);
+     border: 2px solid rgb(255, 255, 0);
+     color: rgb(0, 0, 0);
+     cursor: pointer;
+ }
+
+ #btn_pre:hover {
+     background-color: rgb(255, 255, 0);
+     border: 2px solid rgb(255, 255, 0);
+     color: rgb(0, 0, 0);
+     cursor: pointer;
+ }
+
+ hr {
+     background-color: rgb(97, 97, 97);
+     height: 5px;
+ }
+
+ .displaytext {
+     text-align: center;
+     font-size: 30px;
+     color: black;
+     background-color: rgba(127, 255, 212, 0.5);
+     font-weight: 700;
+     padding: 5%;
+ }
+
+ .name {
+     background-color: rgba(127, 255, 212, 0.5);
+     padding: 20px 0px 50px 0px;
+ }
+
+ #full_name {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 35px;
+     font-weight: 700;
+ }
+
+ #icon {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 100px;
+ }
+
+ #applied {
+     font-size: 20px;
+     font-weight: 700;
+     text-align: center;
+ }
+
+ .aside {
+     width: 240px;
+     float: left;
+     background-color: rgba(233, 150, 122, 0.5);
+     padding: 0px 10px 10px 10px;
+     text-align: right;
+     font-weight: 500;
+ }
+
+ h3 {
+     padding: 5px;
+     background-color: rgb(111, 111, 111);
+     text-align: left;
+ }
+
+ h4 {
+     text-align: right;
+     text-decoration: underline;
+ }
+
+ .aside a {
+     text-decoration: none;
+     color: blue;
+     cursor: pointer;
+     text-decoration: underline;
+ }
+
+ .profile {
+     margin-left: 260px;
+     margin-right: 30px;
+     text-align: justify;
+ }
+
+ .bold {
+     font-weight: 700;
+ }
+
+ .profile div {
+     margin-left: 30px;
+ }
+
+ ul {
+     margin-left: 50px;
+ }
+
+ .alert {
+     display: block;
+     align-items: center;
+     margin-left: 15%;
+     width: 70%;
+     height: 70%;
+     padding: 20px;
+     background-color: rgba(255, 17, 0, 0.8);
+     color: white;
+     text-align: center;
+     z-index: 1;
+     border: 10px solid rgba(0, 0, 0, 0.5);
+     font-size: 1.5em;
+ }
